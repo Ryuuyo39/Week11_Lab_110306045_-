@@ -13,6 +13,8 @@
 			if(num == rand) {
 				document.write('The answer is ' + num + '. You are right!');
 				break;
+			} else if (num % 1 != 0){
+				alert('Please enter an integar number.');
 			} else if (num < 1 || num > 10){
 				alert('The number is not between 1 and 10.');
 			} else {
